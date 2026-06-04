@@ -33,7 +33,7 @@ void C_Delete(Console* c){
 
 int main(){
     Console c;
-    if(Console_Create(&c,L"Console Game Test",200,150,8,8,C_Setup,C_Update,C_Delete))
+    if(Console_Create(&c,L"Console Game Test",150,50,8,8,C_Setup,C_Update,C_Delete))
         Console_Start(&c);
     return 0;
 }
