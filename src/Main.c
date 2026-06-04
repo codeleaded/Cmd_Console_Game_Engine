@@ -22,7 +22,7 @@ void C_Update(Console* c){
 
     e = Console_Mouse(c);
 
-    Console_Clear(c,CPIXEL_SOLID,FG_BLACK);
+    Console_Clear(c,CPIXEL_SOLID,FG_BLACK | BG_BLACK);
 
     Console_RenderTriangleWire(c,e,(Vec2){30.0f,30.0f},p,(CPixel){CPIXEL_SOLID,FG_YELLOW},1.0f);
     Console_RenderTriangleWire(c,e,(Vec2){10.0f,50.0f},p,(CPixel){CPIXEL_SOLID,FG_BLUE},1.0f);
